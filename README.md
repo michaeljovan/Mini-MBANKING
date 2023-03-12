@@ -1,11 +1,14 @@
-# TA-RPL-KING-MU 
-nama aplikasi
-○ Penjelasan singkat aplikasi prototype yang
-dibuat
-○ Daftar anggota
-○ Daftar fungsi yang akan disediakan oleh
-aplikasi
-○ WAJIB dicantumkan teks “Repo ini adalah
+Mobile-Banking 
+
+Prototype yang kita buat 
+
+Michael Jovan Nathanael / 71210705 
+Albertus Stefan Hindrawan / 71210697 
+Nugrahadi Tristya / 71210677 
+
+Fungsi  
+
+Repo ini adalah
 bagian dari Tugas Akhir Rekayasa
 Perangkat Lunak Semester Group
-<grupAnda> Genap 2022/2023”
+B Genap 2022/2023
