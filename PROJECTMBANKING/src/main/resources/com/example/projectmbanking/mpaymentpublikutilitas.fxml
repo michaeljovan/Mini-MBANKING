@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="295.0" style="-fx-background-color: BLUE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectmbanking.Mpaymentpublikutilitas">
+    <children>
+        <Label layoutX="28.0" layoutY="45.0" text="m-Payement Publik Utilitas">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="100.0" text="Nama Perusahaan:" />
+        <TextField layoutX="25.0" layoutY="124.0" promptText="&quot;PLN&quot;/&quot;XXX&quot;/&quot;XXX&quot;" />
+        <Label layoutX="28.0" layoutY="168.0" text="Input No.Bayar:" />
+        <TextField layoutX="25.0" layoutY="194.0" promptText="000000000000" />
+        <Label layoutX="28.0" layoutY="236.0" text="Wilayah:" />
+        <TextField layoutX="25.0" layoutY="254.0" promptText="SESUAI PLN KABUPATEN" />
+        <Label layoutX="28.0" layoutY="296.0" text="Dari Rekening:" />
+        <Label layoutX="28.0" layoutY="314.0" text="XXXXXXXXXX" />
+      <Button fx:id="pinbutton" layoutX="122.0" layoutY="331.0" mnemonicParsing="false" onAction="#gotopin" text="BAYAR" />
+      <Button fx:id="kempaymentbutton" layoutX="222.0" layoutY="400.0" mnemonicParsing="false" onAction="#gotompayment" text="Kembali" textFill="RED" />
+    </children>
+</AnchorPane>
