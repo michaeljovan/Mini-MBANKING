@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="295.0" style="-fx-background-color: BLUE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectmbanking.Transferantarrekening">
+   <children>
+      <Label layoutX="62.0" layoutY="22.0" text="Transfer Antar Rekening">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="kemtransferbutton" layoutX="222.0" layoutY="400.0" mnemonicParsing="false" onAction="#gotomtransfer" text="Kembali" textFill="RED" />
+      <Line endX="208.29290771484375" endY="-7.62939453125E-6" layoutX="88.0" layoutY="66.0" startX="-100.0" />
+      <Label layoutX="14.0" layoutY="128.0" text="NO. Rekening Tujuan" />
+      <TextField layoutX="14.0" layoutY="145.0" promptText="XXXXXXXXXXX" />
+      <Label layoutX="14.0" layoutY="180.0" text="Jumlah Nominal" />
+      <TextField layoutX="13.0" layoutY="197.0" promptText="Rp.0000,00" />
+      <Label layoutX="14.0" layoutY="230.0" text="Layanan Transfer" />
+      <TextField layoutX="14.0" layoutY="247.0" promptText="BiFast / Normal" />
+      <Label layoutX="14.0" layoutY="284.0" text="Dari Rekening" />
+      <Label layoutX="13.0" layoutY="302.0" text="XXXXXXXXX" />
+      <Button fx:id="pinokbutton" layoutX="123.0" layoutY="320.0" mnemonicParsing="false" onAction="#gotopin" text="Transfer" />
+      <Label layoutX="14.0" layoutY="75.0" text="Berita" />
+      <TextField layoutX="13.0" layoutY="92.0" promptText="&quot;Bayar utang&quot;" />
+   </children>
+</AnchorPane>

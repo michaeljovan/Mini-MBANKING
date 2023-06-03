@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="295.0" style="-fx-background-color: BLUE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectmbanking.Mpaymentinternet">
+    <children>
+        <Label layoutX="67.0" layoutY="40.0" text="m-Payment Internet">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="21.0" layoutY="100.0" text="Operator Telepon:" />
+        <TextField layoutX="21.0" layoutY="118.0" />
+        <Label layoutX="21.0" layoutY="156.0" text="Input Kode Area &amp; No. Telepon:" />
+        <TextField layoutX="21.0" layoutY="174.0" />
+        <Label layoutX="21.0" layoutY="211.0" text="Dari Rekening:" />
+        <Label layoutX="21.0" layoutY="229.0" text="XXXXXXXXXX" />
+      <Button fx:id="pinbutton" layoutX="130.0" layoutY="260.0" mnemonicParsing="false" onAction="#gotopin" text="Bayar" />
+      <Button fx:id="kempaymentbutton" layoutX="222.0" layoutY="400.0" mnemonicParsing="false" onAction="#gotompayment" text="Kembali" textFill="RED" />
+    </children>
+</AnchorPane>
