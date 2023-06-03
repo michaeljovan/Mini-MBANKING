@@ -11,5 +11,5 @@ login, ganti password untuk login, cek nomorkartu, melihat mutasi rekening, meng
 
 Repo ini adalah
 bagian dari Tugas Akhir Rekayasa
-Perangkat Lunak Bero Semester Group
+Perangkat Lunak Berorientasi Objek Semester Group
 B Genap 2022/2023
