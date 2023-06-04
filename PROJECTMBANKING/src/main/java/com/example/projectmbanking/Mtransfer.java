@@ -24,22 +24,18 @@ public class Mtransfer {
         Main m = new Main();
         m.changescene("homepage.fxml");
     }
-
     public void gototransferantarbank(ActionEvent event) throws IOException {
         Main m = new Main();
         m.changescene("transferantarbank.fxml");
     }
-
     public void gototransferantarrekening(ActionEvent event) throws IOException {
         Main m = new Main();
         m.changescene("transferantarrekening.fxml");
     }
-
     public void gotodtantarbank(ActionEvent event) throws IOException {
         Main m = new Main();
         m.changescene("daftartransferantarbank.fxml");
     }
-
     public void gotodtantarrekening(ActionEvent event) throws IOException {
         Main m = new Main();
         m.changescene("daftartransferantarrekening.fxml");

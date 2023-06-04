@@ -26,6 +26,11 @@ public class Main extends Application {
         }
 
     public static void main(String[] args) {
+        DataAkun loginSystem = new DataAkun();
+
+        loginSystem.addUser("admin", "admin","1234","00112233","012","gold","23/10/2023",1000,"1010");
+        loginSystem.addUser("admin1", "admin1","4321","33221100","210","gold","01/5/2023",1000,"1011");
+
         launch();
     }
 }
