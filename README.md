@@ -9,7 +9,4 @@ Nugrahadi Tristya / 71210677
 Fungsi yang dapat dilakukan : 
 login, ganti password untuk login, cek nomorkartu, melihat mutasi rekening, mengecek saldo, menambah daftar transfer, transfer antar bank dan sesama bank, mengatur limit pengeluaran dari kartu kita, pembayaran BPJS, pembayaran kartu kredit, pembyaran internet, pembayaran utilitas publik
 
-Repo ini adalah
-bagian dari Tugas Akhir Rekayasa
-Perangkat Lunak Berorientasi Objek Semester Group
-B Genap 2022/2023
+2022/2023
